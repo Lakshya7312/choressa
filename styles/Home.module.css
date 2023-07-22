@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #aac8a7;
+  justify-content: center;
+}
+
+.toaster {
+  z-index: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-family: "Lobster Two", cursive;
+  font-size: 2.4rem;
+  color: #fdffae;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+}
+
+.input {
+  background-color: #c3edc0;
+  margin-top: 2rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1.2em;
+  color: black;
+}
+
+.btn {
+  font-family: "Lobster Two", cursive;
+  margin-top: 3.5rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #e9ffc2;
+  color: #080808;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.17s all ease-out;
+}
+
+.btn:hover {
+  background-color: #c3edc0;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  font-family: "Lobster Two", cursive;
+}
+
+.head {
+  font-size: 3.3rem;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
